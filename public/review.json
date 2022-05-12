@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/7X77zYY/person-2.png",
+      "name": "Nick",
+      "comment": "Good online course Test yourself on the right to use with hundreds of different nouns,way to . ",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/hYnrSWM/person-4.png",
+      "name": "Charles",
+      "comment": "Interestingly when I look at my relationship to different mathematicians. ",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/hYnrSWM/person-4.png",
+      "name": "Jonathaon",
+      "comment": "good online course Listen to English every day.Make an English/ESL friend. Make up conversations read . ",
+      "rating": 4.7
+    }
+  ]
