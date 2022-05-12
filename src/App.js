@@ -8,6 +8,8 @@ import Contact from "./Pages/Contact/Contact";
 import Banner from "./Pages/Home/Home/Banner/Banner";
 import Experience from "./Pages/Home/Experience/Experience";
 
+import Service from "./Pages/Home/Service/Service";
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/banner" element={<Banner></Banner>}></Route>
         <Route path="/experience" element={<Experience></Experience>}></Route>
+
+        <Route path="/service" element={<Service></Service>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
