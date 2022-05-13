@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import Roll from "react-reveal/Roll";
 import { useNavigate } from "react-router-dom";
 const HomeService = ({ service }) => {
-  const { img, name, description, section, price, id } = service;
+  const { img, name, comment, section, price, id } = service;
   const navigate = useNavigate();
   const navigateToServiceDetail = (id) => {
     navigate(`/service/${id}`);
@@ -17,7 +17,7 @@ const HomeService = ({ service }) => {
             <h5 className="card-title">{name}</h5>
             <p>Class: {section}</p>
             <p className="text-bold">Price: $ {price}</p>
-            <p className="card-text">{description}</p>
+            <p className="card-text">{comment}</p>
             <Button onClick={() => navigateToServiceDetail(id)}>
               Checkout
             </Button>

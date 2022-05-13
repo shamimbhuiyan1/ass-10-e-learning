@@ -1,24 +1,25 @@
 import React from "react";
+import shamim from "../../Images/shamim.JPG";
+import { Fade } from "react-reveal";
 
-import Fade from "react-reveal/Fade";
 const About = () => {
   return (
     <div className="container my-5">
       <Fade left>
         <div className="row shadow-lg p-3 mb-5 bg-body rounded justify-content-center align-items-center">
+          <h3 className="text-center text-primary">About Me</h3>
           <div className="g-5 col-sm-12 col-md-6 ">
             <img
-              style={{ width: "500", height: "400px", borderRadius: "5px" }}
-              src=""
+              style={{ width: "380px", height: "520px", borderRadius: "5px" }}
+              src={shamim}
               alt=""
             />
           </div>
           <div className="g-5 col-sm-12 col-md-6 ">
-            <h3 className="text-center text-primary">About Me</h3>
             <div className="ms-5">
               <p>Name: Shamim Bhuiyan</p>
               <p>Institute: Daffodil Institute of IT</p>
-              <p>Home Town : Cumilla,Bangladesh</p>
+              <p>Home Town : Cumilla,Bangladesh.</p>
             </div>
             <div className="ms-5">
               <h3>My Target plan</h3>

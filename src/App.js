@@ -1,31 +1,33 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import NotFound from "./Pages/NotFound/NotFound";
-import Home from "./Pages/Home/Home/Home";
 import About from "./Pages/About/About";
-import Blogs from "./Pages/Blogs/Blogs";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Route, Routes } from "react-router-dom";
+import Blog from "./Pages/Blogs/Blog";
 import Contact from "./Pages/Contact/Contact";
-import Banner from "./Pages/Home/Home/Banner/Banner";
-import Experience from "./Pages/Home/Experience/Experience";
-
-import Service from "./Pages/Home/Service/Service";
-import Review from "./Pages/Home/Review/Review";
-
+import Home from "./Pages/Home/Home/Home";
+import Header from "./Pages/Shared/Header/Header";
+import Services from "./Pages/Services/Services";
+import Footer from "./Pages/Shared/Footer/Footer";
+import NotFound from "./Pages/Shared/NotFound/NotFound";
+import Login from "./Pages/Login/Login/Login";
+import Register from "./Pages/Login/Register/Register";
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="services" element={<Services></Services>}></Route>
+        <Route path="service/:serviceId"></Route>
         <Route path="/about" element={<About></About>}></Route>
-        <Route path="/blog" element={<Blogs></Blogs>}></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
-        <Route path="/banner" element={<Banner></Banner>}></Route>
-        <Route path="/experience" element={<Experience></Experience>}></Route>
-
-        <Route path="/service" element={<Service></Service>}></Route>
-        <Route path="/review" element={<Review></Review>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
