@@ -4,7 +4,7 @@ The name of project is [e-learning](https://e-learning-3406e.web.app/).
 
 ## Live Site [https://e-learning-3406e.web.app/]
 
-Technologies Used:
+# Technologies Used:
 
     * React Dom
     * Firebase
