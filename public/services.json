@@ -4,7 +4,7 @@
       "img": "https://img.freepik.com/free-vector/scene-with-many-kids-studying-classroom_1308-65612.jpg?w=1060&t=st=1652076142~exp=1652076742~hmac=0ee98e6e0b245fdf86235e2bcfdc9750f0fc495411c7d46af2ba1a72c2d064c3",
       "class": "6-8",
       "course": "Science and Mathematics",
-      "couresDetails": "Interestingly when I look at my relationship to different mathematicians, it is often the case              that our common ancestor is Simeon Poisson who had only three advisees: Chasles, ",
+      "comment": "Interestingly when I look at my relationship to different mathematicians, it is often the case              that our common ancestor is Simeon Poisson who had only three advisees: Chasles, ",
       "price": "$120"
     },
     {
@@ -12,7 +12,7 @@
       "img": "https://img.freepik.com/free-photo/little-boy-participating-online-class_23-2149041125.jpg?t=st=1652079241~exp=1652079841~hmac=db0cd74e7a6fab319c6c6c060df1293e7a76094493be59e37da9c4809f8461c1&w=1380",
       "class": "6-8",
       "course": "ICT and English",
-      "couresDetails": "Now a days teaching is very easy beacause i can teach any topic with proper visulization to students .which is very helpful for students. ",
+      "comment": "Now a days teaching is very easy beacause i can teach any topic with proper visulization to students .which is very helpful for students. ",
       "price": "$100"
     },
     {
@@ -20,7 +20,7 @@
       "img": "https://img.freepik.com/free-vector/student-classroom-template_1308-26333.jpg?t=st=1652079062~exp=1652079662~hmac=e6eb3c8dd0237b6232788fe7ae5070db2c40965d91c93582d8628c8a6c9c61ff&w=1800",
       "class": "9-10",
       "course": "Science and Mathematics",
-      "couresDetails": "Practice makes a men Perfect,If the practice do in creative way which is more efficient and understandable.In mordern era through internet anthing can understandable for students to learning.",
+      "comment": "Practice makes a men Perfect,If the practice do in creative way which is more efficient and understandable.In mordern era through internet anthing can understandable for students to learning.",
       "price": "$130"
     },
     {
@@ -28,7 +28,7 @@
       "img": "https://img.freepik.com/free-photo/little-girl-participating-online-classes_23-2149041079.jpg?t=st=1652079241~exp=1652079841~hmac=9434c073dcfde99566d6bbb9dbdb69b232959a2d853994eddf5518b6cfddef5a&w=1380",
       "class": "9-10",
       "course": "Science, Mathematics and Higher Mathematics",
-      "couresDetails": "Interestingly when I look at my relationship to different mathematicians, it is often the case              that our common ancestor is Simeon Poisson who had only three advisees: Chasles, ",
+      "comment": "Interestingly when I look at my relationship to different mathematicians, it is often the case              that our common ancestor is Simeon Poisson who had only three advisees: Chasles, ",
       "price": "$150"
     },
     {
@@ -36,7 +36,7 @@
       "img": "https://img.freepik.com/free-photo/school-boy-yellow-shirt-taking-virtual-classes-raising-hand_23-2148766714.jpg?t=st=1652079253~exp=1652079853~hmac=d269c57dfb74bf84364056691f6e7cdb6ef7eb46fa7a3e4e020624d86b28c178&w=996https://img.freepik.com/free-photo/school-boy-yellow-shirt-taking-virtual-classes-raising-hand_23-2148766714.jpg?t=st=1652079253~exp=1652079853~hmac=d269c57dfb74bf84364056691f6e7cdb6ef7eb46fa7a3e4e020624d86b28c178&w=996",
       "class": "9-10",
       "course": "ICT,Physics and Chemestry ",
-      "couresDetails": "The students of the future will demand the learning support that is appropriate for their               situation or context. Nothing more, nothing less. And they want it at the moment the need arises. Not sooner,             not later. Mobile devices will be a key technology for providing that learning support. ",
+      "comment": "The students of the future will demand the learning support that is appropriate for their               situation or context. Nothing more, nothing less. And they want it at the moment the need arises. Not sooner,             not later. Mobile devices will be a key technology for providing that learning support. ",
       "price": "$160"
     },
     {
@@ -44,7 +44,7 @@
       "img": "https://img.freepik.com/free-photo/online-communication_1098-15842.jpg?t=st=1652079548~exp=1652080148~hmac=db5e6289beb774bfef65a70933648ab7646f1ac6b02fa740f788f213d8a80a4b&w=1380",
       "class": 11,
       "course": "ICT",
-      "couresDetails": "Technology is not a silver bullet. It’s only as good as the teachers … using it as one more tool           to help inspire, and teach, and work through problems ",
+      "comment": "Technology is not a silver bullet. It’s only as good as the teachers … using it as one more tool           to help inspire, and teach, and work through problems ",
       "price": "$120"
     }
   ]

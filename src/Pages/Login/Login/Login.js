@@ -9,7 +9,7 @@ import auth from "../../../firebase.init";
 import Loading from "../../Shared/Loading/Loading";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-/* import LoginAnimation from "../LoginAnimation/LoginAnimation"; */
+import LoginAnimation from "../LoginAnimation/LoginAnimation";
 import GoogleSignIn from "../GoogleSignIn/GoogleSignIn";
 
 const Login = () => {
@@ -64,7 +64,7 @@ const Login = () => {
       <Container>
         <Row className="d-flex align-items-center my-5 ">
           <Col md={6} xs={12}>
-            {/* <LoginAnimation></LoginAnimation> */}
+            <LoginAnimation></LoginAnimation>
           </Col>
           <Col md={6} xs={12} className="">
             <div className="mx-auto w-75">
