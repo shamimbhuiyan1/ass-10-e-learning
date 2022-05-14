@@ -22,7 +22,7 @@ const About = () => {
               <p>Home Town : Cumilla,Bangladesh.</p>
             </div>
             <div className="ms-5">
-              <h3>My Target plan</h3>
+              <h3>My Goal</h3>
               <p>
                 Assalamulaikum Thanks for giving me this golden opportunity to
                 introduce myself before this panel. I’m a front-end web

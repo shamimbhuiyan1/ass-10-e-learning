@@ -4,7 +4,7 @@ import Flip from "react-reveal/Flip";
 import { useNavigate } from "react-router-dom";
 
 const ServiceMain = ({ service }) => {
-  const { section, img, name, description, price, id } = service;
+  const { section, img, name, comment, price, id } = service;
   const navigate = useNavigate();
   const navigateToServiceDetail = (id) => {
     navigate(`/service/${id}`);
@@ -18,7 +18,7 @@ const ServiceMain = ({ service }) => {
             <h5 className="card-title">{name}</h5>
             <p> Class: {section}</p>
             <p className="text-bold">Price: ${price}</p>
-            <p className="card-text">{description}</p>
+            <p className="card-text">{comment}</p>
             <Button onClick={() => navigateToServiceDetail(id)}>
               Checkout
             </Button>
