@@ -1,5 +1,5 @@
-# Getting Started with Create React App
+# Getting Started with Online Education App
 
-This project was [e-learning](https://e-learning-3406e.web.app/).
+The name of project is [e-learning](https://e-learning-3406e.web.app/).
 
 ## Live Site [https://e-learning-3406e.web.app/]
