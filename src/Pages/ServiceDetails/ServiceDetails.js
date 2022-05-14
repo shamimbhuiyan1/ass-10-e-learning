@@ -9,8 +9,8 @@ const ServiceDetails = () => {
         <Row>
           <Col md={6} xs={12}>
             <img
-              style={{ width: "450px", height: "400px" }}
-              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              style={{ width: "350px", height: "480px", borderRadius: "5px" }}
+              src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dW5pdmVyc2l0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               alt=""
             />
           </Col>

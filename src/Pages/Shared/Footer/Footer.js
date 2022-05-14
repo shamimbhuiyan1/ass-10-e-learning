@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Footer.css";
 const Footer = () => {
   return (
@@ -7,12 +8,12 @@ const Footer = () => {
         <div className="row">
           {/*colum 1*/}
           <div className="col-md-3 col-sm-6">
-            <h4>SEMRUSH</h4>
+            <h4>TECHWORLD</h4>
             <ul className="list-unstyled">
               <li>Designer</li>
               <li>Interactions</li>
               <li>CMS</li>
-              <li>Ecommerce</li>
+              <li>E-commerce</li>
               <li>Accessibility</li>
               <li>Templates</li>
               <li>learning</li>
@@ -28,16 +29,14 @@ const Footer = () => {
               <li>Terms of Service</li>
               <li>Privacy Policy</li>
               <li>Cookie Preferences</li>
-              <li>Become an Affiliate</li>
             </ul>
           </div>
           {/*colum 3*/}
           <div className="col-md-3 col-sm-6">
             <h4>HELP</h4>
             <ul className="list-unstyled">
-              <li>About Colorlib</li>
+              <li>About US</li>
               <li>Advertise </li>
-              <li>WordPress Themes</li>
               <li>Website Templates</li>
               <li>Bootstrap Templates</li>
               <li>Support Forum</li>
@@ -49,26 +48,29 @@ const Footer = () => {
             <h4>FOLLOW</h4>
             <ul className="list-unstyled font-awsome ">
               <li>
-                <i class="fas fa-home"></i> Dhaka dhanmondi
+                <i className="fas fa-home"></i> Dhaka, Dhanmondi
               </li>
               <li>
-                <i class="fas fa-home"></i> Comiila Kandirpar{" "}
+                <i className="fas fa-home"></i> Cumilla, BrahmonPara{" "}
               </li>
               <li>
-                <i class="fas fa-phone"></i> +8801703059461
+                <i className="fas fa-phone"></i> +8801854639569
               </li>
               <li>
-                <i class="fas fa-question-circle"></i> +4574754
+                <i className="fas fa-question-circle"></i> +94515427
               </li>
               <li>
-                <a href="https://www.facebook.com/mdshipon.chowdhury.940">
-                  <i class="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/">
+                  <i className="fab fa-facebook"></i>
                 </a>{" "}
                 Facebook
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/md-shipon-214207214/">
-                  <i class="fab fa-linkedin-in"></i>
+                <a
+                  href="https://www.linkedin.com/in/shamimbhuiyan1/"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin-in "></i>
                 </a>{" "}
                 Linkedin
               </li>

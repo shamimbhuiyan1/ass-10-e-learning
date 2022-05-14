@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="g-5 col-sm-12 col-md-6 ">
+        <div className="g-5 col-sm-12 col-md-6 light">
           <h4>
             1.Why are you using firebase? What other options do you have to
             implement authentication?

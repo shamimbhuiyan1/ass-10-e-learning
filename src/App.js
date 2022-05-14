@@ -11,6 +11,8 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import NotFound from "./Pages/Shared/NotFound/NotFound";
 import Login from "./Pages/Login/Login/Login";
 import Register from "./Pages/Login/Register/Register";
+import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
+import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails";
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,14 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="services" element={<Services></Services>}></Route>
-        <Route path="service/:serviceId"></Route>
+        <Route
+          path="service/:serviceId"
+          element={
+            <RequireAuth>
+              <ServiceDetails></ServiceDetails>
+            </RequireAuth>
+          }
+        ></Route>
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
